@@ -1,0 +1,147 @@
+
+body {
+    background-color: #e5d8c1;
+    color: #635440;
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    padding: 2rem;
+    margin: 0;  
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  
+  .container {
+    background-color: #c9b389cf;
+    padding: 2rem;
+    margin: auto;
+    max-width: 900px; 
+    width: 100%; 
+    min-height: 100%; 
+    border: 1px solid #4f573a;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    padding-bottom: 2rem; 
+  }
+  
+  
+  h4, h2, h3 {
+    font-family: 'Georgia', serif;
+    color: #fdf6e3; 
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  }
+  
+  p{
+    color: #395341;
+  }
+  /* Links */
+  a {
+    color: #523e31;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Lists */
+  ol, ul {
+    margin-left: 1.5rem;
+    color: #474f33;
+  }
+  
+  /* Images */
+  img {
+    max-width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    height:auto
+
+  }
+  
+  /* Video + Tableau */
+  iframe, .tableauPlaceholder {
+    display: block;
+    margin: 2rem auto;
+    max-width: 100%;
+    border: none;
+  }
+  
+  
+  .section {
+    margin-bottom: 2rem;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('assets/img/vintage3.png');
+    opacity: 0.1;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  body {
+    position: relative;
+    z-index: 0;
+  }
+
+  h1{
+    color: #203c28;
+    text-align: center;
+  }
+  
+.content {
+    display: flex;
+    align-items: center; 
+}
+
+.styled-image {
+    width: 250px; 
+    margin-left: 226px; 
+    height:auto
+}
+
+.text-container p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#gear {
+    color: #474f33;
+}
+
+h1 i {
+    margin-right: 10px;
+    color: #e0b589;
+  }
+  .tv-frame {
+    width: fit-content;
+    padding: 20px;
+    background: #333;
+    border: 10px solid #e0b589;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    margin: 2rem 0;
+  }
+  
+  .tv-frame iframe {
+    border: none;
+    border-radius: 8px;
+    display: block;
+  }
+  
+      
